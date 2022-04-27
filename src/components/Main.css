@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.main {
+  background-color: white;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom-style: dotted;
+  border-width: 3px;
+  border-color: hsla(340, 66%, 52%, 0.791);
+  ;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 100%;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: hsla(340, 66%, 52%, 0.791);
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: hsl(340, 66%, 52%);
+}
+
+.tarefas {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.tarefas li {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 600ms;
+}
+
+.tarefas li:hover {
+  background-color: hsla(340, 66%, 52%, 0.249);
+}
+
+.tarefas li .edit {
+  color: #8d0d2482;
+}
+
+.tarefas li .delete {
+  color: #e43d3da3;
+}
+
+.icons {
+  display: flex;
+  gap: 8px;
+}
